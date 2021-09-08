@@ -1,0 +1,1968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>C++ Tutorial By Champaran Coders Club - A non-profit club in Motihari, Bihar</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+
+        <!-- CSS Files -->
+        <link href="./Assets/CSS/style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" >
+
+    </head>
+
+    <body id="page-top">
+
+        <nav class="navbar">
+            <div class="container">
+                <a class="ccc">CHAMPARAN CODERS CLUB</a>
+            </div>
+        </nav>
+
+        <section id="logo">
+            <div class="container logo-edit">
+                <a href="index.html">
+                  <div class="card card-edit">
+                    <img src="./Assets/IMG/ccc.jpg" class="image-fluid">
+                  </div>
+                </a>
+            </div>
+            <h1 id="title">C++ Tutorial</h1>
+        </section>
+
+        <section id="problem" class="problem section-bg">
+          <div class="container">
+
+            <div class="problem-list">
+
+              <ul>  
+
+                <!-- DAY 01 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-1" class="collapse">
+                      DAY 01: Write a program in C++ to print the sum of two numbers.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-1" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 400px; width: 400px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Print the sum of two numbers:";<br>
+                                cout << endl; <br>
+                                cout << "-------------------------------" <br>
+                                cout << "The sum of 29 and 30 is: " << 29+30 ;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 200px; width: 300px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print the sum of two numbers:<br>
+                                -------------------------------<br>
+                                The sum of 29 and 30 is: 59<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 02 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-2" class="collapse">
+                      DAY 02: Write a program in C++ to find the size of fundamental data types.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-2" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 600px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Find Size of fundamental data types :\n";<br>
+                                cout << "------------------------------------------\n";<br>
+                                cout << " The sizeof(char) is :" << sizeof(char) << " bytes \n" ;<br>
+                                cout << " The sizeof(short) is :" << sizeof(short) << " bytes \n" ;<br>
+                                cout << " The sizeof(int) is :" << sizeof(int) << " bytes \n" ;<br>
+                                cout << " The sizeof(long) is :" << sizeof(long) << " bytes \n" ;<br>
+                                cout << " The sizeof(long long) is :" << sizeof(long long) << " bytes \n";<br>
+                                cout << " The sizeof(float) is :" << sizeof(float) << " bytes \n" ;<br>
+                                cout << " The sizeof(double) is :" << sizeof(double) << " bytes \n";<br>
+                                cout << " The sizeof(long double) is :" << sizeof(long double) << " bytes \n";<br>
+                                cout << " The sizeof(bool) is :" << sizeof(bool) << " bytes \n\n";<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 400px; width: 600px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Find Size of fundamental data types : <br>
+                                ------------------------------------------ <br>
+                                The sizeof(char) is :          1 bytes <br>
+                                The sizeof(short) is :         2 bytes <br>
+                                The sizeof(int) is :           4 bytes <br>
+                                The sizeof(long) is :          8 bytes <br>
+                                The sizeof(long long) is :     8 bytes <br>
+                                The sizeof(float) is :         4 bytes <br>
+                                The sizeof(double) is :        8 bytes <br>
+                                The sizeof(long double) is :   16 bytes <br>
+                                The sizeof(bool) is :          1 bytes <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 03 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-3" class="collapse">
+                      DAY 03: Write a program in C++ to print the sum of two numbers using variables.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-3" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 600px; width: 600px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Print the sum of two numbers:";<br>
+                                cout << endl; <br>
+                                cout << "-------------------------------" <br>
+                                cout << endl; <br>
+                                int a; <br>
+		                            int b; <br>
+	                            	int sum; <br>
+	                            	a=29; <br>
+                            		b=30; <br>
+                            		sum=a+b; <br>
+	                            	cout << " The sum of "<< a << " and "<< b <<" is : "<< sum;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 200px; width: 300px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print the sum of two numbers:<br>
+                                -------------------------------<br>
+                                The sum of 29 and 30 is: 59<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 04 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-4" class="collapse">
+                      DAY 04: Write a program in C++ to check the upper and lower limits of integer.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-4" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 700px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < climits >   <span class="comment">// integer limits in header file</span><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Check the upper and lower limits of integer :\n";<br>
+                                cout << "--------------------------------------------------\n";<br>
+                                cout << "The maximum limit of int data type :  " << INT_MAX << endl;<br>
+                                cout << "The minimum limit of int data type :   " << INT_MIN << endl;<br>
+                                cout << "The maximum limit of unsigned int data type :   " << UINT_MAX << endl;<br>
+                                cout << "The maximum limit of long long data type :   " << LLONG_MAX << endl;<br>
+                                cout << "The minimum limit of long long data type :   " << LLONG_MIN << endl;<br>
+                                cout << "The maximum limit of unsigned long long data type :   " << ULLONG_MAX << endl;<br>
+                                cout << "The Bits contain in char data type :   " << CHAR_BIT << endl;<br>
+                                cout << "The maximum limit of char data type :   " << CHAR_MAX << endl;<br>
+                                cout << "The minimum limit of char data type :   " << CHAR_MIN << endl;<br>
+                                cout << "The maximum limit of signed char data type :   " << SCHAR_MAX << endl;<br>
+                                cout << "The minimum limit of signed char data type :   " << SCHAR_MIN << endl;<br>
+                                cout << "The maximum limit of unsigned char data type :   " << UCHAR_MAX << endl;<br>
+                                cout << "The minimum limit of short data type :   " << SHRT_MIN << endl;<br>
+                                cout << "The maximum limit of short data type :   " << SHRT_MAX << endl;<br>
+                                cout << "The maximum limit of unsigned short data type :   " << USHRT_MAX << endl;<br>
+                                cout << endl;
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 700px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>                               
+                                Check the upper and lower limits of integer :<br>                        
+                                --------------------------------------------------<br>
+                                The maximum limit of int data type :   2147483647<br>
+                                The minimum limit of int data type :   -2147483648<br>
+                                The maximum limit of unsigned int data type :   4294967295<br>
+                                The maximum limit of long long data type :  9223372036854775807<br>
+                                The minimum limit of long long data type :   -9223372036854775808<br>
+                                The maximum limit of unsigned long long data type :   18446744073709551615<br>
+                                The Bits contain in char data type :   8<br>
+                                The maximum limit of char data type :  127<br>
+                                The minimum limit of char data type :   -128<br>
+                                The maximum limit of signed char data type :   127<br>
+                                The minimum limit of signed char data type :   -128<br>
+                                The maximum limit of unsigned char data type :   255<br>
+                                The minimum limit of short data type :   -32768<br>
+                                The maximum limit of short data type :   32767<br>
+                                The maximum limit of unsigned short data type :   65535<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 05 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-5" class="collapse">
+                      DAY 05: Write a program in C++ to check whether the primitive values crossing the limits or not.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-5" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 800px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Check whether the primitive values crossing the limits or not :\n";<br>
+                                cout << "--------------------------------------------------------------------\n";<br>
+                                char gender = 'F';             <span class="comment">// char is single-quoted</span><br>
+                                bool isEmployed = true;         <span class="comment">// true(non-zero) or false(0)</span><br>
+                                unsigned short numOfsons = 2; <span class="comment">// [0, 255]</span><br>
+                                short yearOfAppt = 2009;      <span class="comment">// [-32767, 32768]</span><br>
+                                unsigned int YearlyPackage = 1500000;   <span class="comment">// [0, 4294967295]</span><br>
+                                double height = 79.48;       <span class="comment">// With fractional part</span><br>
+                                float gpa = 4.69f;           <span class="comment">// Need suffix 'f' for float</span><br>
+                                long totalDrawan = 12047235L;     <span class="comment">// Suffix 'L' for long</span><br>
+                                long long balance = 995324987LL;  <span class="comment">// Need suffix 'LL' for long long int</span><br>
+                                cout << " The Gender is : " << gender << endl;<br>
+                                cout << " Is she married? : " << isEmployed << endl;<br>
+                                cout << " Number of sons she has : " << numOfsons << endl;<br>
+                                cout << " Year of her appointment : " << yearOfAppt << endl;<br>
+                                cout << " Salary for a year : " << YearlyPackage << endl;<br>
+                                cout << " Height is : " << height << endl;<br>
+                                cout << " GPA is " << gpa << endl;<br>
+                                cout << " Salary drawn upto : " << totalDrawan << endl;<br>
+                                cout << " Balance till : " << balance << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 400px; width: 700px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Check whether the primitive values crossing the limits or not :<br>
+                                --------------------------------------------------------------------<br>
+                                The Gender is : F<br>
+                                Is she married? : 1<br>
+                                Number of sons she has : 2<br>
+                                Year of her appointment : 2009<br>
+                                Salary for a year : 1500000<br>
+                                Height is : 79.48<br>
+                                GPA is 4.69<br>
+                                Salary drawn upto : 12047235<br>
+                                Balance till : 995324987
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 06 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-6" class="collapse">
+                      DAY 06: Write a program in C++ to display various type or arithmetic operation using mixed data type.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-6" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 860px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < iomanip >   <span class="comment">// formatting floating-point numbers with 1 decimal place</span><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int m1 = 5, m2 = 7;<br>
+                                double d1 = 3.7, d2 = 8.0;<br>
+                                cout << "Display arithmetic operations with mixed data type :\n";<br>
+                                cout << "---------------------------------------------------------\n";<br>
+                                cout << fixed << setprecision(1);<br>
+                                <br>
+                                cout <<" "<< m1 << " + " << m2 << " = " << m1+m2 << endl;<br>
+                                cout <<" "<< d1 << " + " << d2 << " = " << d1+d2 << endl;<br>
+                                cout <<" "<< m1 << " + " << d2 << " = " << m1+d2 << endl;<br>
+                                <br>
+                                cout <<" "<< m1 << " - " << m2 << " = " << m1-m2 << endl;<br>
+                                cout <<" "<< d1 << " - " << d2 << " = " << d1-d2 << endl;<br>
+                                cout <<" "<< m1 << " - " << d2 << " = " << m1-d2 << endl;<br>
+                                <br>
+                                cout <<" "<< m1 << " * " << m2 << " = " << m1*m2 << endl;<br>
+                                cout <<" "<< d1 << " * " << d2 << " = " << d1*d2 << endl;<br>
+                                cout <<" "<< m1 << " * " << d2 << " = " << m1*d2 << endl;<br>
+                                <br>
+                                cout <<" "<< m1 << " / " << m2 << " = " << m1/m2 << endl;<br>
+                                cout <<" "<< d1 << " / " << d2 << " = " << d1/d2 << endl;<br>
+                                cout <<" "<< m1 << " / " << d2 << " = " << m1/d2 << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 450px; width: 550px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Display arithmetic operations with mixed data type :<br>
+                                ---------------------------------------------------------<br>
+                                5 + 7 = 12<br>
+                                3.7 + 8.0 = 11.7<br>
+                                5 + 8.0 = 13.0<br>
+                                5 - 7 = -2<br>
+                                3.7 - 8.0 = -4.3<br>
+                                5 - 8.0 = -3.0<br>
+                                5 * 7 = 35<br>
+                                3.7 * 8.0 = 29.6<br>
+                                5 * 8.0 = 40.0<br>
+                                5 / 7 = 0<br>
+                                3.7 / 8.0 = 0.5<br>
+                                5 / 8.0 = 0.6
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 07 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-7" class="collapse">
+                      DAY 07: Write a program in C++ to check overflow/underflow during various arithmetical operation.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-7" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 620px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Check overflow/underflow during various arithmetical operation :\n";<br>
+                                cout << " Range of int is [-2147483648, 2147483647]"<< endl;<br>
+                                cout << "---------------------------------------------------------------------\n";<br>
+                                int n1 = 2147483647;      <span class="comment">// maximum range of integer</span><br>
+                                cout <<" Overflow the integer range and set in minimum range : " << n1 + 1 << endl;<br>
+                                cout <<" Increasing from its minimum range : " << n1 + 2 << endl;<br>
+                                cout <<" Product is :" << n1 * n1 << endl;<br>
+                                <br>
+                                int n2 = -2147483648;     <span class="comment">// minimum range of integer</span><br>
+                                cout <<" Underflow the range and set in maximum range : " << n2 - 1 << endl;<br>
+                                cout <<" Decreasing from its maximum range : " << n2 - 2 << endl;<br>
+                                cout <<" Product is : " << n2 * n2 << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 350px; width: 670px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Check overflow/underflow during various arithmetical operation :<br>
+                                Range of int is [-2147483648, 2147483647]<br>
+                                ---------------------------------------------------------------------<br>
+                                Overflow the integer range and set in minimum range : -2147483648<br>
+                                Increasing from its minimum range : -2147483647<br>
+                                Product is :1<br>
+                                Underflow the range and set in maximum range : 2147483647<br>
+                                Decreasing from its maximum range : 2147483646<br>
+                                Product is : 0
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 08 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-8" class="collapse">
+                      DAY 08: Write a program in C++ to display the operation of pre and post increment and decrement.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-8" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 700px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int num = 57;<br>
+                                cout << "Display the operation of pre and post increment and decrement :\n";<br>
+                                cout << "--------------------------------------------------------------------\n";<br>
+                                cout <<" The number is : " << num << endl;<br>
+                                num++;               <span class="comment">// increase by 1 (post-increment)</span><br>
+                                cout <<" After post increment by 1 the number is : " << num << endl;<br>
+                                ++num;               <span class="comment">// increase by 1 (pre-increment)</span><br>
+                                cout <<" After pre increment by 1 the number is : " << num << endl;<br>
+                                num = num + 1;  <span class="comment">// num is now increased by 1.</span><br>
+                                cout <<" After increasing by 1 the number is : " << num << endl; // 79<br>
+                                num--;               <span class="comment">// decrease by 1 (post-decrement)</span><br>
+                                cout <<" After post decrement by 1 the number is : " << num << endl;<br>
+                                --num;               <span class="comment">// decrease by 1 (pre-decrement)</span><br>
+                                cout <<" After pre decrement by 1 the number is : " << num << endl;<br>
+                                num = num - 1; <span class="comment">// num is now decreased by 1.</span><br>
+                                cout <<" After decreasing by 1 the number is : " << num << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 350px; width: 650px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Display the operation of pre and post increment and decrement :<br>
+                                --------------------------------------------------------------------<br>
+                                The number is : 57<br>
+                                After post increment by 1 the number is : 58<br>
+                                After pre increment by 1 the number is : 59<br>
+                                After increasing by 1 the number is : 60<br>
+                                After post decrement by 1 the number is : 59<br>
+                                After pre decrement by 1 the number is : 58<br>
+                                After decreasing by 1 the number is : 57
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 09 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-9" class="collapse">
+                      DAY 09: Write a program in C++ to swap two numbers.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-9" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 580px; width: 580px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Swap two numbers :\n";<br>
+                                cout << "-----------------------\n";<br>
+                                int num1, num2, temp;<br>
+                                cout << " Input 1st number : ";<br>
+                                cin >> num1 ;<br>
+                                cout << " Input 2nd number : ";<br>
+                                cin >> num2;<br>
+                                temp=num2;<br>
+                                num2=num1;<br>
+                                num1=temp;<br>
+                                cout << " After swapping the 1st number is : "<< num1 <<"\n" ;<br>
+                                cout << " After swapping the 2nd number is : "<< num2;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 280px; width: 370px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Swap two numbers :<br>
+                                -----------------------<br>
+                                Input 1st number : 25<br>
+                                Input 2nd number : 39<br>
+                                After swapping the 1st number is : 39<br>
+                                After swapping the 2nd number is : 25<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 10 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-10" class="collapse">
+                      DAY 10: Write a program in C++ to calculate the volume of a sphere.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-10" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 500px; width: 550px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int rad1;
+                                float volsp;<br>
+                                cout << "Calculate the volume of a sphere :\n";<br>
+                                cout << "---------------------------------------\n";<br>
+                                cout<<" Input the radius of a sphere : ";<br>
+                                cin>>rad1;<br>
+                                volsp=(4*3.14*rad1*rad1*rad1)/3;<br>
+                                cout<<" The volume of a sphere is : "<< volsp << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 250px; width: 400px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Calculate the volume of a sphere :<br>
+                                ---------------------------------------<br>
+                                Input the radius of a sphere : 6<br>
+                                The volume of a sphere is : 904.32
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 11 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-11" class="collapse">
+                      DAY 11: Write a program in C++ to calculate the volume of a cube.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-11" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 520px; width: 500px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int sid1;<br>
+                                float volcu;<br>
+                                cout << "Calculate the volume of a cube :\n";<br>
+                                cout << "---------------------------------------\n";<br>
+                                cout<<" Input the side of a cube : ";<br>
+                                cin>>sid1;<br>
+                                volcu=(sid1*sid1*sid1);<br>
+                                cout<<" The volume of a cube is : "<< volcu << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 230px; width: 400px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Calculate the volume of a cube :<br>
+                                ---------------------------------------<br>
+                                Input the side of a cube : 5<br>
+                                The volume of a cube is : 125
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 12 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-12" class="collapse">
+                      DAY 12: Write a program in C++ to calculate the volume of a cylinder.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-12" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 600px; width: 500px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int rad1,hgt;<br>
+                                float volcy;<br>
+                                cout << "Calculate the volume of a cylinder :\n";<br>
+                                cout << "-----------------------------------------\n";<br>
+                                cout<<" Input the radius of the cylinder : ";<br>
+                                cin>>rad1;<br>
+                                cout<<" Input the height of the cylinder : ";<br>
+                                cin>>hgt;<br>
+                                volcy=(3.14*rad1*rad1*hgt);<br>
+                                cout<<" The volume of a cylinder is : "<< volcy << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 250px; width: 400px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Calculate the volume of a cylinder :<br>
+                                -----------------------------------------<br>
+                                Input the radius of the cylinder : 6<br>
+                                Input the height of the cylinder : 8<br>
+                                The volume of a cylinder is : 904.32
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 13 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-13" class="collapse">
+                      DAY 13: Write a program in C++ to find the Area and Perimeter of a Rectangle.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-13" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 580px; width: 590px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int width, lngth, area, peri;<br>
+                                cout << "Find the Area and Perimeter of a Rectangle :\n";<br>
+                                cout << "-------------------------------------------------\n";<br>
+                                cout<<" Input the length of the rectangle : ";<br>
+                                cin>>lngth;<br>
+                                cout<<" Input the width of the rectangle : ";<br>
+                                cin>>width;<br>
+                                area=(lngth*width);<br>
+                                peri=2*(lngth+width);<br>
+                                cout<<" The area of the rectangle is : "<< area << endl;<br>
+                                cout<<" The perimeter of the rectangle is : "<< peri << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 270px; width: 460px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Find the Area and Perimeter of a Rectangle :<br>
+                                -------------------------------------------------<br>
+                                Input the length of the rectangle : 10<br>
+                                Input the width of the rectangle : 15<br>
+                                The area of the rectangle is : 150<br>
+                                The perimeter of the rectangle is : 50
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 14 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-14" class="collapse">
+                      DAY 14: Write a program in C++ to find the area of any triangle using Heron's Formula.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-14" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 630px; width: 700px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < maths.h ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float side1, side2, side3, area, s;<br>
+                                cout << "Find the area of any triangle using Heron's Formula :\n";<br>
+                                cout << "----------------------------------------------------------\n";<br>
+                                cout<<" Input the length of 1st side  of the triangle : ";<br>
+                                cin>>side1;<br>
+                                cout<<" Input the length of 2nd side  of the triangle : ";<br>
+                                cin>>side2;<br>
+                                cout<<" Input the length of 3rd side  of the triangle : ";<br>
+                                cin>>side3;<br>
+                                s = (side1+side2+side3)/2;<br>
+                                area = sqrt(s*(s-side1)*(s-side2)*(s-side3));<br>
+                                cout<<" The area of the triangle is : "<< area << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 280px; width: 580px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Find the area of any triangle using Heron's Formula :<br>
+                                ----------------------------------------------------------<br>
+                                Input the length of 1st side  of the triangle : 5<br>
+                                Input the length of 2nd side  of the triangle : 5<br>
+                                Input the length of 3rd side  of the triangle : 5<br>
+                                The area of the triangle is : 10.8253
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 15 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-15" class="collapse">
+                      DAY 15: Write a program in C++ to find the area and circumference of a circle.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-15" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 680px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #define PI 3.14159<br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float radius, area, circum;<br>
+                                cout << "Find the area and circumference of any circle :\n";<br>
+                                cout << "----------------------------------------------------\n";<br>
+                                cout<<" Input the radius(1/2 of diameter) of a circle : ";<br>
+                                cin>>radius;<br>
+                                circum = 2*PI*radius;<br>
+                                area = PI*(radius*radius);<br>
+                                cout<<" The area of the circle is : "<< area << endl;<br>
+                                cout<<" The circumference of the circle is : "<< circum << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 280px; width: 600px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Find the area and circumference of any circle :<br>
+                                ----------------------------------------------------<br>
+                                Input the radius(1/2 of diameter) of a circle : 5<br>
+                                The area of the circle is : 78.5397<br>
+                                The circumference of the circle is : 31.4159
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 16 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-16" class="collapse">
+                      DAY 16: Write a program in C++ to convert temperature in Celsius to Fahrenheit.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-16" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 500px; width: 580px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float frh, cel;<br>
+                                cout << "Convert temperature in Celsius to Fahrenheit :\n";<br>
+                                cout << "----------------------------------------------\n;<br>
+                                cout << " Input the temperature in Celsius : ";<br>
+                                cin >> cel;<br>
+                                frh = (cel * 9.0) / 5.0 + 32;<br>
+                                cout << " The temperature in Celsius    : " << cel << endl;<br>
+                                cout << " The temperature in Fahrenheit : " << frh << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 250px; width: 440px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Convert temperature in Celsius to Fahrenheit :<br>
+                                ----------------------------------------------<br>
+                                Input the temperature in Celsius : 35<br>
+                                The temperature in Celsius    : 35<br>
+                                The temperature in Fahrenheit : 95
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 17 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-17" class="collapse">
+                      DAY 17: Write a program in C++ to convert temperature in Fahrenheit to Celsius.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-17" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 650px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float frh, cel;<br>
+                                cout << "Convert temperature in Fahrenheit to Celsius :\n";<br>
+                                cout << "---------------------------------------------------\n;<br>
+                                cout << " Input the temperature in Fahrenheit : ";<br>
+                                cin >> frh;<br>
+                                cel = ((frh * 5.0)-(5.0 * 32))/9;<br>
+                                cout << " The temperature in Fahrenheit : " << frh << endl;<br>
+                                cout << " The temperature in Celsius : " << cel << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 300px; width: 500px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Convert temperature in Fahrenheit to Celsius :<br>
+                                ---------------------------------------------------<br>
+                                Input the temperature in Fahrenheit : 95<br>
+                                The temperature in Fahrenheit : 95<br>
+                                The temperature in Celsius : 35
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 18 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-18" class="collapse">
+                      DAY 18: Write a program in C++ that converts kilometers per hour to miles per hour.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-18" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 650px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float kmph, miph;<br>
+                                cout << "Convert kilometers per hour to miles per hour :\n";<br>
+                                cout << "----------------------------------------------------\n";<br>
+                                cout << " Input the distance in kilometer : ";<br>
+                                cin >> kmph;<br>
+                                miph = (kmph * 0.6213712);<br>
+                                cout << " The "<< kmph <<" Km./hr. means "<< miph << " Miles/hr." << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 250px; width: 550px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Convert kilometers per hour to miles per hour :<br>
+                                ----------------------------------------------------<br>
+                                Input the distance in kilometer : 25<br>
+                                The 25 Km./hr. means 15.5343 Miles/hr.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 19 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-19" class="collapse">
+                      DAY 19: Write a program in C++ to convert temperature in Kelvin to Fahrenheit.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-19" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 500px; width: 560px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float kel, frh;<br>
+                                cout << "Convert temperature in Kelvin to Fahrenheit  :\n";<br>
+                                cout << "------------------------------------------------\n";<br>
+                                cout << " Input the temperature in Kelvin : ";<br>
+                                cin >> kel;<br>
+                                frh = (9.0 / 5) * (kel - 273.15) + 32;<br>
+                                cout << " The temperature in Kelvin    : " << kel << endl;<br>
+                                cout << " The temperature in Fahrenheit : " << frh << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 300px; width: 470px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Convert temperature in Kelvin to Fahrenheit  :<br>
+                                -------------------------------------------------<br>
+                                Input the temperature in Kelvin : 300<br>
+                                The temperature in Kelvin    : 300<br>
+                                The temperature in Fahrenheit : 80.33
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 20 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-20" class="collapse">
+                      DAY 20: Write a program in C++ to find the area of Scalene Triangle.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-20" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 620px; width: 650px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < math.h ><br>
+                                #define PI 3.14159<br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float side1, side2, ang1, area;<br>
+                                cout << "Find the area of Scalene Triangle :\n";<br>
+                                cout << "----------------------------------------\n";<br>
+                                cout<<" Input the length of a side  of the triangle : ";<br>
+                                cin>>side1;<br>
+                                cout<<" Input the length of another side  of the triangle : ";<br>
+                                cin>>side2;<br>
+                                cout<<" Input the angle between these sides of the triangle : ";<br>
+                                cin>>ang1;	<br>
+                                area = (side1 * side2 * sin((PI/180)*ang1))/2;<br>
+                                cout<<" The area of the Scalene Triangle is : "<< area << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 300px; width: 550px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Find the area of Scalene Triangle :<br>
+                                ----------------------------------------<br>
+                                Input the length of a side  of the triangle : 5<br>
+                                Input the length of another side  of the triangle : 6<br>
+                                Input the angle between these sides of the triangle : 6<br>
+                                The area of the Scalene Triangle is : 1.56793
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 21 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-21" class="collapse">
+                      DAY 21: Write a program in C++ to compute quotient and remainder.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-21" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-9">
+                          <div class="card gb-solution" style="height: 600px; width: 600px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int dividend, divisor, quotient,remainder;<br>
+                                cout << "Compute quotient and remainder :\n";<br>
+                                cout << "-------------------------------------\n";<br>
+                                cout<<" Input the dividend : ";<br>
+                                cin>>dividend;<br>
+                                cout<<" Input the divisor : ";<br>
+                                cin>>divisor;<br>
+                                quotient=dividend / divisor;<br>
+                                remainder=dividend % divisor;<br>
+                                cout<<" The quotient of the division is : "<< quotient << endl;<br>
+                                cout<<" The remainder of the division is : "<< remainder << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 270px; width: 350px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Compute quotient and remainder :<br>
+                                -------------------------------------<br>
+                                Input the dividend : 25<br>
+                                Input the divisor : 3<br>
+                                The quotient of the division is : 8<br>
+                                The remainder of the division is : 1
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 22 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-22" class="collapse">
+                      DAY 22: Write a program in C++ to compute the total and average of four numbers.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-22" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 600px; width: 550px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                float n1,n2,n3,n4,tot,avrg;<br>
+                                cout <<"Compute the total and average of four numbers :\n";<br>
+                                cout <<"------------------------------------------------\n";<br>
+                                cout<<" Input 1st two numbers (separated by space) : ";<br>
+                                cin>> n1 >> n2;<br>
+                                cout<<" Input last two numbers (separated by space) : ";<br>
+                                cin>> n3 >> n4;<br>
+                                tot=n1+n2+n3+n4;<br>
+                                avrg=tot/4;<br>
+                                cout<<" The total of four numbers is : "<< tot << endl;<br>
+                                cout<<" The average of four numbers is : "<< avrg << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 280px; width: 480px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Compute the total and average of four numbers :<br>
+                                -------------------------------------------------<br>
+                                Input 1st two numbers (separated by space) : 25 20<br>
+                                Input last two numbers (separated by space) : 15 25<br>
+                                The total of four numbers is : 85<br>
+                                The average of four numbers is : 21.25
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 23 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-23" class="collapse">
+                      DAY 23: Write a program in C++ to input a single digit number and print a rectangular<br> form of 4 columns and 6 rows.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-23" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 600px; width: 650px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int x;<br>
+                                cout << "Make a rectangular shape by a single digit number :\n";<br>
+                                cout << "--------------------------------------------------------\n";		<br>
+                                cout<<" Input the number : ";<br>
+                                cin>> x;<br>
+                                cout<< " " << x << x << x << x << endl;<br>
+                                cout<< " " << x << " " << " " << x << endl;<br>
+                                cout<< " " << x << " " << " " << x << endl;<br>
+                                cout<< " " << x << " " << " " << x << endl;<br>
+                                cout<< " " << x << " " << " " << x << endl;<br>
+                                cout<< " " << x << x << x << x << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 350px; width: 550px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Make a rectangular shape by a single digit number :<br>
+                                --------------------------------------------------------<br>
+                                Input the number : 8<br>
+                                8888<br>
+                                8 &ensp;&ensp;8<br>
+                                8 &ensp;8<br>
+                                8 &ensp;8<br>
+                                8 &ensp;8<br>
+                                8888
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 24 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-24" class="collapse">
+                      DAY 24: Write a C++ program to display the current date and time.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-24" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 750px; width: 900px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < cmath ><br>
+                                #include < ctime ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                time_t t = time(NULL);<br>
+                                tm* tPtr = localtime(&t);<br>
+                                cout << "Display the Current Date and Time :\n";<br>
+                                cout << "----------------------------------------\n";<br>
+                                cout << " seconds = " << (tPtr->tm_sec) << endl;<br>
+                                cout << " minutes = " << (tPtr->tm_min) << endl;<br>
+                                cout << " hours = " << (tPtr->tm_hour) << endl;<br>
+                                cout << " day of month = " << (tPtr->tm_mday) << endl;<br>
+                                cout << " month of year = " << (tPtr->tm_mon)+1 << endl;<br>
+                                cout << " year = " << (tPtr->tm_year)+1900 << endl;<br>
+                                cout << " weekday = " << (tPtr->tm_wday )<< endl;<br>
+                                cout << " day of year = " << (tPtr->tm_yday )<< endl;<br>
+                                cout << " daylight savings = " <<(tPtr->tm_isdst )<< endl;<br>
+                                cout << endl;<br>
+                                cout <<"Current Date: "<<(tPtr->tm_mday)<<"/"<<(tPtr->tm_mon)+1<<"/"<<(tPtr->tm_year)+1900<< endl;<br>
+                                cout <<"Current Time: "<<(tPtr->tm_hour)<<":"<<(tPtr->tm_min)<<":"<<(tPtr->tm_sec)<< endl; <br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 500px; width: 600px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Display the Current Date and Time :<br>
+                                ----------------------------------------<br>
+                                seconds = 48<br>
+                                minutes = 30<br>
+                                hours = 20<br>
+                                day of month = 24<br>
+                                month of year = 9<br>
+                                year = 2021<br>
+                                weekday = 5<br>
+                                day of year = 267<br>
+                                daylight savings = 0<br>
+                                <br>                          
+                                Current Date: 24/9/2021<br>
+                                Current Time: 20:30:48
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 25 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-25" class="collapse">
+                      DAY 25: Write a program in C++ to compute the specified expressions and print the output.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-25" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 400px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Compute the specified expressions and print the output:\n";<br>
+                                cout << "------------------------------------------------------------\n";<br>
+                                cout << " Result of the expression "<<"(25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5) is : ";<br>
+                                cout << (25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5) <<"\n" ;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 230px; width: 730px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Compute the specified expressions and print the output:<br>
+                                ------------------------------------------------------------<br>
+                                Result of the expression (25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5) is : 2.13889<br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 26 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-26" class="collapse">
+                      DAY 26: Write a program in C++ to test the Type Casting.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-26" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 830px; width: 750px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < iomanip ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Formatting the output using type casting:\n";<br>
+                                cout << "----------------------------------------------\n";<br>
+                                cout<<"Print floating-point number in fixed format with 1 decimal place: ";<br>
+                                cout << fixed << setprecision(1);<br>
+                                cout<<"\nTest explicit type casting :\n";<br>
+                                int i1 = 4, i2 = 8;<br>
+                                cout << i1 / i2 << endl;<br>
+                                cout << (double)i1 / i2 << endl;<br>
+                                cout << i1 / (double)i2 << endl;<br>
+                                cout << (double)(i1 / i2) << endl;<br>
+                                double d1 = 5.5, d2 = 6.6;<br>
+                                cout<<"\nTest implicit type casting :\n" ;<br>
+                                cout << (int)d1 / i2 << endl;<br>
+                                cout << (int)(d1 / i2) << endl;<br>
+                                cout <<"\nint implicitly casts to double: \n";<br>
+                                d1 = i1;<br>
+                                cout << d1 << endl;   <span class="comment">// 4.0</span><br>
+                                cout<<"double truncates to int!: \n";<br>
+                                i2 = d2;<br>
+                                cout << i2 << endl;  <span class="comment">// 6</span><br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 650px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Formatting the output using type casting:<br>
+                                ----------------------------------------------<br>
+                                Print floating-point number in fixed format with 1 decimal place:<br>
+                                Test explicit type casting :<br>
+                                0<br>
+                                0.5<br>
+                                0.5<br>
+                                0.0<br>
+                                <br>
+                                Test implict type casting :<br>
+                                0<br>
+                                0<br>
+                                <br>
+                                int implicitly casts to double:<br>
+                                4.0<br>
+                                double truncates to int!:<br>
+                                6
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 27 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-27" class="collapse">
+                      DAY 27: Write a program in C++ to print a mystery series from 1 to 50.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-27" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-8">
+                          <div class="card gb-solution" style="height: 850px; width: 400px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                cout << "Print a mystery series:\n";<br>
+                                cout << "-------------------------\n";<br>
+                                cout << " The series are: \n";<br>
+                                int nm1 = 1;<br>
+                                while (true)<br>
+                                &ensp;{<br>
+                                &ensp;&ensp;++nm1;<br>
+                                &ensp;&ensp;if ((nm1 % 3) == 0)<br>
+                                &ensp;&ensp;&ensp;continue;<br>
+                                &ensp;&ensp;if (nm1 == 50)<br>
+                                &ensp;&ensp;&ensp;break;<br>
+                                &ensp;&ensp;if ((nm1 % 2) == 0)<br>
+                                &ensp;&ensp;&ensp;{<br>
+                                &ensp;&ensp;&ensp;&ensp;nm1 += 3;<br>
+                                &ensp;&ensp;&ensp;}<br>
+                                &ensp;&ensp;else<br>
+                                &ensp;&ensp;&ensp;{<br>
+                                &ensp;&ensp;&ensp;&ensp;nm1 -= 3;<br>
+                                &ensp;&ensp;&ensp;}<br>
+                                &ensp;&ensp;cout << nm1 << " ";<br>
+                                &ensp;}<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card gb-solution" style="height: 300px; width: 400px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print a mystery series:<br>
+                                -------------------------<br>
+                                The series are:<br>
+                                5 4 2 7 11 10 8 13 17 16 14 19 23 22 20 25 29 28 26 31<br>
+                                35 34 32 37 41 4 0 38 43 47 46 44 49
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 28 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-28" class="collapse">
+                      DAY 28: Write a program in C++ that takes a number as input and prints its multiplication table upto 10.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-28" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 500px; width: 700px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                int a,i=0;<br>
+                                cout << "Print the multiplication table of a number upto 10:\n";<br>
+                                cout << "--------------------------------------------------------\n";<br>
+                                cout << " Input a number: ";<br>
+                                cin>> a;<br>
+                                for (i=1;i<=10;i++)<br>
+                                &ensp;{<br>
+                                &ensp;&ensp;cout << a<<" x "<< i << " = "<< a*i << "\n" ;<br>
+                                &ensp;}<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 450px; width: 600px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print the multiplication table of a number upto 10:<br>
+                                --------------------------------------------------------<br>
+                                Input a number: 5<br>
+                                5 x 1 = 5<br>
+                                5 x 2 = 10<br>
+                                5 x 3 = 15<br>
+                                5 x 4 = 20<br>
+                                5 x 5 = 25<br>
+                                5 x 6 = 30<br>
+                                5 x 7 = 35<br>
+                                5 x 8 = 40<br>
+                                5 x 9 = 45<br>
+                                5 x 10 = 50
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 29 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-29" class="collapse">
+                      DAY 29: Write a language program in C++ which accepts the user's first and last name and <br>print them in reverse order with a space between them.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-29" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 550px; width: 700px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                #include < string ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                char fname[30], lname [30];<br>
+                                cout << "Print the name in reverse where last name comes first:\n";<br>
+                                cout << "-----------------------------------------------------------\n";<br>
+                                cout << " Input First Name: ";<br>
+                                cin >> fname;<br>
+                                cout << " Input Last Name: ";<br>
+                                cin >> lname;<br>
+                                cout << " Name in reverse is: "<< lname << " "<< fname << endl;<br>
+                                cout << endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 300px; width: 550px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print the name in reverse where last name comes first:<br>
+                                -----------------------------------------------------------<br>
+                                Input First Name: Elon<br>
+                                Input Last Name: Musk<br>
+                                Name in reverse is: Musk Elon
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+                <!-- DAY 30 -->
+                <li data-aos="fade-up">
+                  <div class="card question">
+                    <a data-bs-toggle="collapse" data-bs-target="#pr-list-30" class="collapse">
+                      DAY 30: Write a program in C++ to print the code (ASCII code / Unicode code etc.) of a given character.
+                      <i class="bx bx-chevron-down icon-show"></i>
+                      <i class="bx bx-chevron-up icon-close"></i>
+                    </a>
+                  </div>
+                  <div id="pr-list-30" class="collapse" data-bs-parent=".problem-list">
+                    <div class="container">
+                      <div class="row col-md-12">
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 500px; width: 800px;">
+                            <div class="text">
+                              <h2>SOLUTION</h2>
+                              <p>
+                                #include < iostream ><br>
+                                using namespace std;<br>
+                                <br>
+                                int main()<br>
+                                {<br>
+                                char sing_ch;<br>
+                                cout << "Print code (ASCII code / Unicode code etc.) of a  given character:\n";<br>
+                                cout << "-----------------------------------------------------------------------\n";<br>
+                                cout << " Input a character: ";<br>
+                                cin >> sing_ch;<br>
+                                cout <<" The ASCII value of "<< sing_ch <<" is: "<< (int)sing_ch << endl;<br>
+                                cout <<" The character for the ASCII value "<< (int)sing_ch <<" is: "<< (char)((int)sing_ch) << endl<< endl;<br>
+                                return 0;<br>
+                                }
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="card gb-solution" style="height: 280px; width: 700px;">
+                            <div class="text">
+                              <h2>OUTPUT</h2>
+                              <p>
+                                Print code (ASCII code / Unicode code etc.) of a  given character:<br>
+                                -----------------------------------------------------------------------<br>
+                                Input a character: a<br>
+                                The ASCII value of a is: 97<br>
+                                The character for the ASCII value 97 is: a
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card invi"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top: 17px;">
+                        <h2 style="text-decoration: underline;">ABOUT US</h2>
+                        <p>Champaran Coders Club is a non-profit club/organisation established in 2021. We are a group of coding enthuiastic students based in Motihari, East Champaran, Bihar. We are studying different technologies in our college and making some online and offline easy tutorials available for everyone throughout the world at free of cost.
+                        </p>
+                        <h6>Geekblower <br>Founder, Champaran Coders Club</h5>
+                    </div>
+                    <div class="col-md-6 card social-card">
+                        <div class="social-text" style="margin-bottom: 0px;">
+                            <h2>Follow Us On Social Media</h2>
+                        </div>
+                        <div class="social-icons" style="margin: auto; margin-top: 20px;">
+                          <a href="https://facebook.com/champarancodersclub/"><i class="bx bxl-facebook"></i></a>
+                          <a href="#"><i class="bx bxl-twitter"></i></a>
+                          <a href="https://instagram.com/champarancodersclub/"><i class="bx bxl-instagram"></i></a>
+                          <a href="#"><i class="bx bxl-youtube"></i></a>
+                          <a href="#"><i class="bx bxl-linkedin"></i></a>
+                          <a href="#"><i class="bx bxl-github"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS Files -->
+        <script src="./Assets/JS/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    </body>
+</html>                                                                       
