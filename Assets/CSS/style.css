@@ -27,7 +27,7 @@ h4 {
 
 .navbar {
     background-color: #000;
-    height: 80px;
+    height: fit-content;
 }
 
 .navbar .ccc {
