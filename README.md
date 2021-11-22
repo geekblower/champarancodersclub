@@ -1,4 +1,4 @@
-# champarancodersclub
+# Champaran Coders Club
 
 Thanks for downloading this template!
 
