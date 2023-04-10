@@ -10,4 +10,3 @@ Thanks for downloading this template!
 License: This template belongs to Geekblower and Champaran Coders Club
 
 
-###If you want ot use this template, use it and give credit to the original owner.
